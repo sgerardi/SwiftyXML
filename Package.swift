@@ -1,4 +1,11 @@
+// swift-tools-version:4.0
 import PackageDescription
 
 let package = Package(
-    name: "SwiftyXML")
+    name: "SwiftyXML",
+    products: [
+        .library(
+            name: "SwiftyXML",
+            targets: ["SwiftyXML"]),
+    ]
+)
